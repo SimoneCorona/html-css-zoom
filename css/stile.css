@@ -1,0 +1,27 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+html{
+    color: white;
+
+}
+header, main{
+    background-color: black;
+}
+/* HEADER */
+header{
+    height: 80px;
+}
+/* MAIN */
+main{
+    height: calc(100vh - 180px);
+}
+/* FOOTER */
+footer{
+    background-color: #222222;
+    height: 100px;
+}
