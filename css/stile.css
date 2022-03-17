@@ -73,9 +73,23 @@ footer{
 }
 .foot-left{
     width: 10%;
+    height: 100%;
+}
+.item{
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+
 }
- 
+.item i:first-child{
+    font-size: 2em;
+    margin-bottom: 0.2em;
+} 
+.foot-right{
+    width: 15%;
+    line-height: 80px;
+    text-align: center;
+    color: red;
+    background-color: #464444;
+}   
