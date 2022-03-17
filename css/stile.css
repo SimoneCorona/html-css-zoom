@@ -7,21 +7,62 @@
 /* COMMON */
 html{
     color: white;
-
+    background-color: #222222;
 }
 header, main{
     background-color: black;
 }
+header, main, footer{
+    width: 95vw;
+    margin: auto;
+}
 /* HEADER */
 header{
     height: 80px;
+    text-align: end;
+}
+header div{
+    display: inline-block;
+    background-color: grey;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 0.5rem 0.5rem 0 0;
+}
+.speaker-view p{
+    display: inline-block;
 }
 /* MAIN */
 main{
     height: calc(100vh - 180px);
+    overflow-y: auto;
+}
+.container-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.user{
+    position: relative;
+    width: 200px;
+    height: 120px;
+}
+.user img{
+    height: 100%;
+}
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0.2em 0.4em;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.name p{
+    display: inline-block;
 }
 /* FOOTER */
 footer{
-    background-color: #222222;
+    background-color: #2c2c2c;
     height: 100px;
 }
